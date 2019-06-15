@@ -1,8 +1,10 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 58d30bd6de0f0b86ca3f2ec9a01d76814fa651db7a5ac6bc52c8c7e05e7becf7
+-- hash: e6f3375ef20033b2a48026912e39c166a8038f9960cb60e6b3d699f8feb576f8
 
 name:                hylide
 version:             0.1.5.1
@@ -14,13 +16,12 @@ license:             MIT
 maintainer:          freshdried@gmail.com
 category:            Graphics
 build-type:          Simple
-cabal-version:       >= 1.10
 stability:           experimental
 extra-source-files:
     README.md
 data-files:
-    client/dist-local/bundle.js
     client/dist-local/index.html
+    client/dist-local/bundle.js
 
 library
   exposed-modules:
